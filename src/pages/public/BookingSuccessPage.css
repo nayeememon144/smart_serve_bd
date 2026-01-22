@@ -1,0 +1,193 @@
+/* Booking Success Page Styles */
+.booking-success-page {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 1rem;
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.05) 0%, rgba(59, 130, 246, 0.05) 100%);
+}
+
+.booking-success-page .container {
+    max-width: 600px;
+    width: 100%;
+}
+
+.booking-success-page .success-card {
+    background: var(--white);
+    border-radius: 16px;
+    padding: 3rem;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.booking-success-page .success-icon {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem;
+    animation: scaleIn 0.5s ease-out;
+}
+
+@keyframes scaleIn {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.booking-success-page .success-icon svg {
+    color: white;
+}
+
+.booking-success-page h1 {
+    font-size: 1.75rem;
+    color: var(--text-primary);
+    margin-bottom: 0.75rem;
+}
+
+.booking-success-page .success-message {
+    color: var(--text-secondary);
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.booking-success-page .booking-info {
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.1) 0%, rgba(16, 185, 129, 0.05) 100%);
+    border: 1px dashed #10b981;
+    border-radius: 12px;
+    padding: 1.25rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.booking-success-page .booking-info .label {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+}
+
+.booking-success-page .booking-info .booking-code {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #10b981;
+    font-family: 'Courier New', monospace;
+    letter-spacing: 0.05em;
+}
+
+.booking-success-page .booking-details {
+    background: var(--background-secondary);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.booking-success-page .booking-details p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+}
+
+.booking-success-page .booking-details p:last-child {
+    margin-bottom: 0;
+}
+
+.booking-success-page .success-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+}
+
+.booking-success-page .success-actions .btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.875rem 1.5rem;
+    font-weight: 500;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+
+.booking-success-page .success-actions .btn-primary {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    color: white;
+    border: none;
+}
+
+.booking-success-page .success-actions .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+}
+
+.booking-success-page .success-actions .btn-outline {
+    background: transparent;
+    color: var(--primary);
+    border: 1px solid var(--primary);
+}
+
+.booking-success-page .success-actions .btn-outline:hover {
+    background: var(--primary);
+    color: white;
+}
+
+.booking-success-page .home-link {
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-color);
+}
+
+.booking-success-page .home-link a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    transition: color 0.2s ease;
+}
+
+.booking-success-page .home-link a:hover {
+    color: var(--primary);
+}
+
+/* Responsive Design */
+@media (max-width: 576px) {
+    .booking-success-page .success-card {
+        padding: 2rem 1.5rem;
+    }
+
+    .booking-success-page .success-icon {
+        width: 80px;
+        height: 80px;
+    }
+
+    .booking-success-page .success-icon svg {
+        width: 48px;
+        height: 48px;
+    }
+
+    .booking-success-page h1 {
+        font-size: 1.5rem;
+    }
+
+    .booking-success-page .success-actions {
+        flex-direction: column;
+    }
+
+    .booking-success-page .success-actions .btn {
+        width: 100%;
+        justify-content: center;
+    }
+}

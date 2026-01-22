@@ -1,0 +1,237 @@
+/* Seller Earnings Page Styles */
+.seller-earnings-page {
+    padding: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.seller-earnings-page .page-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.seller-earnings-page .page-header h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin: 0;
+}
+
+.seller-earnings-page .page-header p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-top: 0.25rem;
+}
+
+.seller-earnings-page .date-filter {
+    padding: 0.625rem 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    background: var(--bg-primary);
+    font-size: 0.875rem;
+}
+
+/* Stats Cards */
+.seller-earnings-page .earnings-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.seller-earnings-page .stat-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.25rem;
+    background: var(--bg-primary);
+    border-radius: var(--radius-xl);
+    border: 1px solid var(--border-color);
+}
+
+.seller-earnings-page .stat-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: var(--radius-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seller-earnings-page .stat-card.primary .stat-icon {
+    background: #dcfce7;
+    color: #16a34a;
+}
+
+.seller-earnings-page .stat-card.success .stat-icon {
+    background: #cffafe;
+    color: #0891b2;
+}
+
+.seller-earnings-page .stat-card.warning .stat-icon {
+    background: #fef3c7;
+    color: #d97706;
+}
+
+.seller-earnings-page .stat-card.info .stat-icon {
+    background: #dbeafe;
+    color: #2563eb;
+}
+
+.seller-earnings-page .stat-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.seller-earnings-page .stat-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.seller-earnings-page .stat-label {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+/* Transactions Section */
+.seller-earnings-page .transactions-section {
+    background: var(--bg-primary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+}
+
+.seller-earnings-page .section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.25rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.seller-earnings-page .section-header h2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0;
+}
+
+.seller-earnings-page .transactions-table {
+    overflow-x: auto;
+}
+
+.seller-earnings-page .transactions-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.seller-earnings-page .transactions-table th,
+.seller-earnings-page .transactions-table td {
+    padding: 0.875rem 1.25rem;
+    text-align: left;
+    font-size: 0.875rem;
+}
+
+.seller-earnings-page .transactions-table th {
+    background: var(--bg-secondary);
+    font-weight: 600;
+    color: var(--text-secondary);
+    white-space: nowrap;
+}
+
+.seller-earnings-page .transactions-table td {
+    border-bottom: 1px solid var(--border-color);
+    color: var(--text-primary);
+}
+
+.seller-earnings-page .transactions-table tr:last-child td {
+    border-bottom: none;
+}
+
+.seller-earnings-page .transactions-table tr:hover td {
+    background: var(--bg-secondary);
+}
+
+.seller-earnings-page .order-code {
+    font-family: 'Courier New', monospace;
+    font-weight: 600;
+    color: #16a34a;
+}
+
+.seller-earnings-page .amount {
+    font-weight: 700;
+}
+
+/* Payment Badges */
+.seller-earnings-page .payment-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 10px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border-radius: var(--radius-full);
+}
+
+.seller-earnings-page .payment-badge.paid {
+    background: #dcfce7;
+    color: #16a34a;
+}
+
+.seller-earnings-page .payment-badge.pending {
+    background: #fef3c7;
+    color: #d97706;
+}
+
+/* Empty & Loading States */
+.seller-earnings-page .loading-state,
+.seller-earnings-page .empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    text-align: center;
+    color: var(--text-muted);
+}
+
+.seller-earnings-page .loading-state .spinner {
+    width: 40px;
+    height: 40px;
+    border: 3px solid var(--border-color);
+    border-top-color: #10b981;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+.seller-earnings-page .empty-state svg {
+    margin-bottom: 1rem;
+}
+
+.seller-earnings-page .empty-state h3 {
+    font-size: 1.1rem;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .seller-earnings-page .earnings-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .seller-earnings-page .earnings-stats {
+        grid-template-columns: 1fr;
+    }
+
+    .seller-earnings-page .page-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+}

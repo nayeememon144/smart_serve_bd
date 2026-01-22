@@ -1,0 +1,374 @@
+﻿
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\components\NotificationDropdown.tsx
+  36:8   warning  React Hook useEffect has a missing dependency: 'fetchNotifications'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  43:43  error    Unexpected any. Specify a different type                                                                               @typescript-eslint/no-explicit-any
+  63:43  error    Unexpected any. Specify a different type                                                                               @typescript-eslint/no-explicit-any
+  83:43  error    Unexpected any. Specify a different type                                                                               @typescript-eslint/no-explicit-any
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\components\ReviewModal.tsx
+  51:66  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\components\reviews\ProductQA.tsx
+   32:8   warning  React Hook useEffect has a missing dependency: 'fetchQuestions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+   76:22  error    Unexpected any. Specify a different type                                                                           @typescript-eslint/no-explicit-any
+   84:25  error    Unexpected any. Specify a different type                                                                           @typescript-eslint/no-explicit-any
+  142:66  error    Unexpected any. Specify a different type                                                                           @typescript-eslint/no-explicit-any
+  152:73  error    Unexpected any. Specify a different type                                                                           @typescript-eslint/no-explicit-any
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\components\reviews\ProductReviewForm.tsx
+  43:22  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  49:45  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  54:67  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  56:42  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  67:25  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\admin\AdminApprovals.tsx
+  33:8   warning  React Hook useEffect has a missing dependency: 'fetchPendingUsers'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  62:35  error    Unexpected any. Specify a different type                                                                              @typescript-eslint/no-explicit-any
+  77:18  error    'error' is defined but never used                                                                                     @typescript-eslint/no-unused-vars
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\admin\AdminBookings.tsx
+   62:8   warning  React Hook useEffect has a missing dependency: 'fetchBookings'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  107:38  error    Unexpected any. Specify a different type                                                                          @typescript-eslint/no-explicit-any
+  127:38  error    Unexpected any. Specify a different type                                                                          @typescript-eslint/no-explicit-any
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\admin\AdminCategories.tsx
+  138:44  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  158:44  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  207:40  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  214:18  error  'error' is defined but never used         @typescript-eslint/no-unused-vars
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\admin\AdminDashboard.tsx
+  13:16  error  '_t' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\admin\AdminFinancials.tsx
+  58:8   warning  React Hook useEffect has a missing dependency: 'fetchFinancialData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  66:17  error    'startDate' is never reassigned. Use 'const' instead                                                                   prefer-const
+  77:38  error    Unexpected any. Specify a different type                                                                               @typescript-eslint/no-explicit-any
+  84:44  error    Unexpected any. Specify a different type                                                                               @typescript-eslint/no-explicit-any
+  90:70  error    Unexpected any. Specify a different type                                                                               @typescript-eslint/no-explicit-any
+  91:74  error    Unexpected any. Specify a different type                                                                               @typescript-eslint/no-explicit-any
+  92:68  error    Unexpected any. Specify a different type                                                                               @typescript-eslint/no-explicit-any
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\admin\AdminLogin.tsx
+  20:16  error  '_t' is assigned a value but never used   @typescript-eslint/no-unused-vars
+  81:35  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  94:18  error  'error' is defined but never used         @typescript-eslint/no-unused-vars
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\admin\AdminProductForm.tsx
+   49:8   warning  React Hook useEffect has missing dependencies: 'fetchProduct' and 'isEditing'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+   58:38  error    Unexpected any. Specify a different type                                                                                           @typescript-eslint/no-explicit-any
+   65:45  error    Unexpected any. Specify a different type                                                                                           @typescript-eslint/no-explicit-any
+  159:42  error    Unexpected any. Specify a different type                                                                                           @typescript-eslint/no-explicit-any
+  160:44  error    Unexpected any. Specify a different type                                                                                           @typescript-eslint/no-explicit-any
+  166:42  error    Unexpected any. Specify a different type                                                                                           @typescript-eslint/no-explicit-any
+  167:44  error    Unexpected any. Specify a different type                                                                                           @typescript-eslint/no-explicit-any
+  173:25  error    Unexpected any. Specify a different type                                                                                           @typescript-eslint/no-explicit-any
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\admin\AdminProducts.tsx
+  48:8   warning  React Hook useEffect has a missing dependency: 'fetchProducts'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  55:38  error    Unexpected any. Specify a different type                                                                          @typescript-eslint/no-explicit-any
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\admin\AdminReviews.tsx
+   43:8   warning  React Hook useEffect has a missing dependency: 'fetchReviews'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+   50:37  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+   82:37  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+  103:37  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\admin\AdminServiceForm.tsx
+   21:11  error    Unexpected empty object pattern                                                                                                    no-empty-pattern
+   51:8   warning  React Hook useEffect has missing dependencies: 'fetchService' and 'isEditing'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+   56:36  error    Unexpected any. Specify a different type                                                                                           @typescript-eslint/no-explicit-any
+   65:40  error    Unexpected any. Specify a different type                                                                                           @typescript-eslint/no-explicit-any
+   79:38  error    Unexpected any. Specify a different type                                                                                           @typescript-eslint/no-explicit-any
+   86:45  error    Unexpected any. Specify a different type                                                                                           @typescript-eslint/no-explicit-any
+  169:42  error    Unexpected any. Specify a different type                                                                                           @typescript-eslint/no-explicit-any
+  170:44  error    Unexpected any. Specify a different type                                                                                           @typescript-eslint/no-explicit-any
+  176:42  error    Unexpected any. Specify a different type                                                                                           @typescript-eslint/no-explicit-any
+  177:44  error    Unexpected any. Specify a different type                                                                                           @typescript-eslint/no-explicit-any
+  183:25  error    Unexpected any. Specify a different type                                                                                           @typescript-eslint/no-explicit-any
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\admin\AdminServices.tsx
+   63:8   warning  React Hook useEffect has a missing dependency: 'fetchServices'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  114:38  error    Unexpected any. Specify a different type                                                                          @typescript-eslint/no-explicit-any
+  134:38  error    Unexpected any. Specify a different type                                                                          @typescript-eslint/no-explicit-any
+  144:18  error    'error' is defined but never used                                                                                 @typescript-eslint/no-unused-vars
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\admin\AdminSettings.tsx
+   75:38  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  133:42  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  135:71  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\admin\AdminTransactions.tsx
+  35:25  error    '_setTypeFilter' is assigned a value but never used                                                                   @typescript-eslint/no-unused-vars
+  50:8   warning  React Hook useEffect has a missing dependency: 'fetchTransactions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  58:17  error    'startDate' is never reassigned. Use 'const' instead                                                                  prefer-const
+  95:79  error    Unexpected any. Specify a different type                                                                              @typescript-eslint/no-explicit-any
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\admin\AdminUsers.tsx
+  75:35  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  83:18  error  'error' is defined but never used         @typescript-eslint/no-unused-vars
+  91:35  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  98:18  error  'error' is defined but never used         @typescript-eslint/no-unused-vars
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\auth\ForgotPasswordPage.tsx
+  31:25  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\auth\LoginPage.tsx
+  45:18  error  'error' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\auth\RegisterPage.tsx
+  65:18  error  'error' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\auth\ResetPasswordPage.tsx
+  66:25  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\dashboard\CustomerDashboard.tsx
+   68:8   warning  React Hook useEffect has a missing dependency: 'fetchDashboardData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+   76:38  error    Unexpected any. Specify a different type                                                                               @typescript-eslint/no-explicit-any
+   98:38  error    Unexpected any. Specify a different type                                                                               @typescript-eslint/no-explicit-any
+  103:73  error    Unexpected any. Specify a different type                                                                               @typescript-eslint/no-explicit-any
+  115:40  error    Unexpected any. Specify a different type                                                                               @typescript-eslint/no-explicit-any
+  123:44  error    Unexpected any. Specify a different type                                                                               @typescript-eslint/no-explicit-any
+  127:76  error    Unexpected any. Specify a different type                                                                               @typescript-eslint/no-explicit-any
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\dashboard\CustomerOrdersPage.tsx
+  48:11  error    Unexpected empty object pattern                                                                                 no-empty-pattern
+  68:8   warning  React Hook useEffect has a missing dependency: 'fetchOrders'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  73:44  error    Unexpected any. Specify a different type                                                                        @typescript-eslint/no-explicit-any
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\dashboard\ProfilePage.tsx
+   68:8   warning  React Hook useEffect has a missing dependency: 'fetchAddresses'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+   74:40  error    Unexpected any. Specify a different type                                                                           @typescript-eslint/no-explicit-any
+   92:35  error    Unexpected any. Specify a different type                                                                           @typescript-eslint/no-explicit-any
+  122:48  error    Unexpected any. Specify a different type                                                                           @typescript-eslint/no-explicit-any
+  130:48  error    Unexpected any. Specify a different type                                                                           @typescript-eslint/no-explicit-any
+  147:48  error    Unexpected any. Specify a different type                                                                           @typescript-eslint/no-explicit-any
+  180:44  error    Unexpected any. Specify a different type                                                                           @typescript-eslint/no-explicit-any
+  188:18  error    'error' is defined but never used                                                                                  @typescript-eslint/no-unused-vars
+  199:44  error    Unexpected any. Specify a different type                                                                           @typescript-eslint/no-explicit-any
+  205:44  error    Unexpected any. Specify a different type                                                                           @typescript-eslint/no-explicit-any
+  213:18  error    'error' is defined but never used                                                                                  @typescript-eslint/no-unused-vars
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\provider\ProviderBookings.tsx
+   63:8   warning  React Hook useEffect has a missing dependency: 'fetchBookings'. Either include it or remove the dependency array   react-hooks/exhaustive-deps
+   67:8   warning  React Hook useEffect has a missing dependency: 'filterBookings'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  118:38  error    Unexpected any. Specify a different type                                                                           @typescript-eslint/no-explicit-any
+  128:18  error    'error' is defined but never used                                                                                  @typescript-eslint/no-unused-vars
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\provider\ProviderDashboard.tsx
+   15:16  error    '_t' is assigned a value but never used                                                                                             @typescript-eslint/no-unused-vars
+   33:8   warning  React Hook useEffect has missing dependencies: 'fetchDashboardData' and 'user'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+   41:38  error    Unexpected any. Specify a different type                                                                                            @typescript-eslint/no-explicit-any
+   45:58  error    Unexpected any. Specify a different type                                                                                            @typescript-eslint/no-explicit-any
+   46:60  error    Unexpected any. Specify a different type                                                                                            @typescript-eslint/no-explicit-any
+   48:30  error    Unexpected any. Specify a different type                                                                                            @typescript-eslint/no-explicit-any
+   49:42  error    Unexpected any. Specify a different type                                                                                            @typescript-eslint/no-explicit-any
+   53:47  error    Unexpected any. Specify a different type                                                                                            @typescript-eslint/no-explicit-any
+   97:38  error    Unexpected any. Specify a different type                                                                                            @typescript-eslint/no-explicit-any
+  107:18  error    'error' is defined but never used                                                                                                   @typescript-eslint/no-unused-vars
+  207:66  error    Unexpected any. Specify a different type                                                                                            @typescript-eslint/no-explicit-any
+  209:72  error    Unexpected any. Specify a different type                                                                                            @typescript-eslint/no-explicit-any
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\provider\ProviderEarnings.tsx
+  33:8   warning  React Hook useEffect has a missing dependency: 'fetchEarningsData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  40:38  error    Unexpected any. Specify a different type                                                                              @typescript-eslint/no-explicit-any
+  71:59  error    Unexpected any. Specify a different type                                                                              @typescript-eslint/no-explicit-any
+  72:63  error    Unexpected any. Specify a different type                                                                              @typescript-eslint/no-explicit-any
+  73:66  error    Unexpected any. Specify a different type                                                                              @typescript-eslint/no-explicit-any
+  75:72  error    Unexpected any. Specify a different type                                                                              @typescript-eslint/no-explicit-any
+  76:75  error    Unexpected any. Specify a different type                                                                              @typescript-eslint/no-explicit-any
+  83:29  error    Unexpected any. Specify a different type                                                                              @typescript-eslint/no-explicit-any
+  84:42  error    Unexpected any. Specify a different type                                                                              @typescript-eslint/no-explicit-any
+  94:67  error    Unexpected any. Specify a different type                                                                              @typescript-eslint/no-explicit-any
+  97:38  error    Unexpected any. Specify a different type                                                                              @typescript-eslint/no-explicit-any
+  98:38  error    Unexpected any. Specify a different type                                                                              @typescript-eslint/no-explicit-any
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\provider\ProviderQuotes.tsx
+   71:8   warning  React Hook useEffect has a missing dependency: 'fetchQuotes'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+   79:38  error    Unexpected any. Specify a different type                                                                        @typescript-eslint/no-explicit-any
+   88:49  error    Unexpected any. Specify a different type                                                                        @typescript-eslint/no-explicit-any
+   92:36  error    Unexpected any. Specify a different type                                                                        @typescript-eslint/no-explicit-any
+  112:47  error    Unexpected any. Specify a different type                                                                        @typescript-eslint/no-explicit-any
+  114:49  error    Unexpected any. Specify a different type                                                                        @typescript-eslint/no-explicit-any
+  119:62  error    Unexpected any. Specify a different type                                                                        @typescript-eslint/no-explicit-any
+  121:51  error    Unexpected any. Specify a different type                                                                        @typescript-eslint/no-explicit-any
+  147:45  error    Unexpected any. Specify a different type                                                                        @typescript-eslint/no-explicit-any
+  156:49  error    Unexpected any. Specify a different type                                                                        @typescript-eslint/no-explicit-any
+  168:49  error    Unexpected any. Specify a different type                                                                        @typescript-eslint/no-explicit-any
+  182:40  error    Unexpected any. Specify a different type                                                                        @typescript-eslint/no-explicit-any
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\provider\ProviderReviews.tsx
+   23:5   warning  Unused eslint-disable directive (no problems were reported from 'react-hooks/exhaustive-deps')
+   26:8   warning  React Hook useEffect has a missing dependency: 'fetchReviews'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+   50:47  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+  120:87  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+  147:66  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+  151:70  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+  168:66  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\provider\ProviderServices.tsx
+   46:8   warning  React Hook useEffect has a missing dependency: 'fetchServices'. Either include it or remove the dependency array   react-hooks/exhaustive-deps
+   50:8   warning  React Hook useEffect has a missing dependency: 'filterServices'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+   57:38  error    Unexpected any. Specify a different type                                                                           @typescript-eslint/no-explicit-any
+   94:38  error    Unexpected any. Specify a different type                                                                           @typescript-eslint/no-explicit-any
+  104:18  error    'error' is defined but never used                                                                                  @typescript-eslint/no-unused-vars
+  115:38  error    Unexpected any. Specify a different type                                                                           @typescript-eslint/no-explicit-any
+  123:18  error    'error' is defined but never used                                                                                  @typescript-eslint/no-unused-vars
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\provider\ProviderSettings.tsx
+  32:5   warning  Unused eslint-disable directive (no problems were reported from 'react-hooks/exhaustive-deps')
+  37:8   warning  React Hook useEffect has a missing dependency: 'fetchProfile'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  41:31  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+  63:35  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+  72:18  error    'error' is defined but never used                                                                                @typescript-eslint/no-unused-vars
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\public\CheckoutPage.tsx
+   39:8   warning  React Hook useEffect has a missing dependency: 'fetchAddresses'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+   44:44  error    Unexpected any. Specify a different type                                                                           @typescript-eslint/no-explicit-any
+   53:48  error    Unexpected any. Specify a different type                                                                           @typescript-eslint/no-explicit-any
+   57:45  error    Unexpected any. Specify a different type                                                                           @typescript-eslint/no-explicit-any
+   87:44  error    Unexpected any. Specify a different type                                                                           @typescript-eslint/no-explicit-any
+  121:49  error    Unexpected any. Specify a different type                                                                           @typescript-eslint/no-explicit-any
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\public\HomePage.tsx
+   30:12  error  '_isLoading' is assigned a value but never used  @typescript-eslint/no-unused-vars
+   38:44  error  Unexpected any. Specify a different type         @typescript-eslint/no-explicit-any
+   51:42  error  Unexpected any. Specify a different type         @typescript-eslint/no-explicit-any
+   64:42  error  Unexpected any. Specify a different type         @typescript-eslint/no-explicit-any
+  287:60  error  Unexpected any. Specify a different type         @typescript-eslint/no-explicit-any
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\public\OrderTrackingPage.tsx
+  65:8   warning  React Hook useEffect has a missing dependency: 'fetchOrder'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  73:44  error    Unexpected any. Specify a different type                                                                       @typescript-eslint/no-explicit-any
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\public\ProductDetailPage.tsx
+   36:8   warning  React Hook useEffect has a missing dependency: 'fetchProduct'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+   44:38  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+   53:32  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+   57:37  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+   70:42  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+  193:55  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+  305:53  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+  369:78  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+  370:91  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+  372:81  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+  376:86  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\public\ProductsPage.tsx
+  17:11  error  Unexpected empty object pattern           no-empty-pattern
+  34:44  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  46:42  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  51:58  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\public\QuoteRequestPage.tsx
+   41:8   warning  React Hook useEffect has missing dependencies: 'fetchAddresses' and 'fetchService'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+   46:38  error    Unexpected any. Specify a different type                                                                                                @typescript-eslint/no-explicit-any
+   65:44  error    Unexpected any. Specify a different type                                                                                                @typescript-eslint/no-explicit-any
+   73:48  error    Unexpected any. Specify a different type                                                                                                @typescript-eslint/no-explicit-any
+   77:47  error    Unexpected any. Specify a different type                                                                                                @typescript-eslint/no-explicit-any
+  124:36  error    Unexpected any. Specify a different type                                                                                                @typescript-eslint/no-explicit-any
+  410:58  error    Unexpected any. Specify a different type                                                                                                @typescript-eslint/no-explicit-any
+  416:63  error    Unexpected any. Specify a different type                                                                                                @typescript-eslint/no-explicit-any
+  420:78  error    Unexpected any. Specify a different type                                                                                                @typescript-eslint/no-explicit-any
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\public\ServiceBookingPage.tsx
+   79:8   warning  React Hook useEffect has a missing dependency: 'fetchService'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+   86:38  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+  144:21  error    'minutes' is never reassigned. Use 'const' instead                                                               prefer-const
+  177:38  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\public\ServicesPage.tsx
+  102:8  warning  React Hook useEffect has a missing dependency: 'fetchCategoryDetails'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\seller\SellerAnalytics.tsx
+  31:8   warning  React Hook useEffect has a missing dependency: 'fetchAnalytics'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  49:57  error    Unexpected any. Specify a different type                                                                           @typescript-eslint/no-explicit-any
+  50:49  error    Unexpected any. Specify a different type                                                                           @typescript-eslint/no-explicit-any
+  53:75  error    Unexpected any. Specify a different type                                                                           @typescript-eslint/no-explicit-any
+  54:64  error    Unexpected any. Specify a different type                                                                           @typescript-eslint/no-explicit-any
+  55:64  error    Unexpected any. Specify a different type                                                                           @typescript-eslint/no-explicit-any
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\seller\SellerDashboard.tsx
+   31:8   warning  React Hook useEffect has missing dependencies: 'fetchDashboardData' and 'user'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+   39:38  error    Unexpected any. Specify a different type                                                                                            @typescript-eslint/no-explicit-any
+   43:60  error    Unexpected any. Specify a different type                                                                                            @typescript-eslint/no-explicit-any
+   44:53  error    Unexpected any. Specify a different type                                                                                            @typescript-eslint/no-explicit-any
+   47:29  error    Unexpected any. Specify a different type                                                                                            @typescript-eslint/no-explicit-any
+   50:53  error    Unexpected any. Specify a different type                                                                                            @typescript-eslint/no-explicit-any
+   58:60  error    Unexpected any. Specify a different type                                                                                            @typescript-eslint/no-explicit-any
+   63:45  error    Unexpected any. Specify a different type                                                                                            @typescript-eslint/no-explicit-any
+   79:44  error    Unexpected any. Specify a different type                                                                                            @typescript-eslint/no-explicit-any
+   88:38  error    Unexpected any. Specify a different type                                                                                            @typescript-eslint/no-explicit-any
+  107:38  error    Unexpected any. Specify a different type                                                                                            @typescript-eslint/no-explicit-any
+  115:18  error    'error' is defined but never used                                                                                                   @typescript-eslint/no-unused-vars
+  218:64  error    Unexpected any. Specify a different type                                                                                            @typescript-eslint/no-explicit-any
+  219:64  error    Unexpected any. Specify a different type                                                                                            @typescript-eslint/no-explicit-any
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\seller\SellerEarnings.tsx
+   35:8   warning  React Hook useEffect has a missing dependency: 'fetchEarningsData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+   43:38  error    Unexpected any. Specify a different type                                                                              @typescript-eslint/no-explicit-any
+   47:50  error    Unexpected any. Specify a different type                                                                              @typescript-eslint/no-explicit-any
+   54:17  error    'query' is never reassigned. Use 'const' instead                                                                      prefer-const
+   55:49  error    Unexpected any. Specify a different type                                                                              @typescript-eslint/no-explicit-any
+   70:53  error    Unexpected any. Specify a different type                                                                              @typescript-eslint/no-explicit-any
+   70:67  error    Unexpected any. Specify a different type                                                                              @typescript-eslint/no-explicit-any
+   71:57  error    Unexpected any. Specify a different type                                                                              @typescript-eslint/no-explicit-any
+   71:71  error    Unexpected any. Specify a different type                                                                              @typescript-eslint/no-explicit-any
+   73:66  error    Unexpected any. Specify a different type                                                                              @typescript-eslint/no-explicit-any
+   75:29  error    Unexpected any. Specify a different type                                                                              @typescript-eslint/no-explicit-any
+   75:43  error    Unexpected any. Specify a different type                                                                              @typescript-eslint/no-explicit-any
+   76:42  error    Unexpected any. Specify a different type                                                                              @typescript-eslint/no-explicit-any
+   83:29  error    Unexpected any. Specify a different type                                                                              @typescript-eslint/no-explicit-any
+   83:52  error    Unexpected any. Specify a different type                                                                              @typescript-eslint/no-explicit-any
+   84:42  error    Unexpected any. Specify a different type                                                                              @typescript-eslint/no-explicit-any
+   90:56  error    Unexpected any. Specify a different type                                                                              @typescript-eslint/no-explicit-any
+   90:70  error    Unexpected any. Specify a different type                                                                              @typescript-eslint/no-explicit-any
+   94:64  error    Unexpected any. Specify a different type                                                                              @typescript-eslint/no-explicit-any
+   96:35  error    Unexpected any. Specify a different type                                                                              @typescript-eslint/no-explicit-any
+   97:37  error    Unexpected any. Specify a different type                                                                              @typescript-eslint/no-explicit-any
+   98:38  error    Unexpected any. Specify a different type                                                                              @typescript-eslint/no-explicit-any
+  100:31  error    Unexpected any. Specify a different type                                                                              @typescript-eslint/no-explicit-any
+  101:29  error    Unexpected any. Specify a different type                                                                              @typescript-eslint/no-explicit-any
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\seller\SellerOrders.tsx
+   60:8   warning  React Hook useEffect has a missing dependency: 'fetchOrders'. Either include it or remove the dependency array   react-hooks/exhaustive-deps
+   64:8   warning  React Hook useEffect has a missing dependency: 'filterOrders'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+   72:38  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+   76:50  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+   85:49  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+   89:63  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+  139:44  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+  149:18  error    'error' is defined but never used                                                                                @typescript-eslint/no-unused-vars
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\seller\SellerProducts.tsx
+   44:8   warning  React Hook useEffect has a missing dependency: 'fetchProducts'. Either include it or remove the dependency array   react-hooks/exhaustive-deps
+   48:8   warning  React Hook useEffect has a missing dependency: 'filterProducts'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  101:18  error    'error' is defined but never used                                                                                  @typescript-eslint/no-unused-vars
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\seller\SellerReviews.tsx
+   25:8   warning  React Hook useEffect has a missing dependency: 'fetchReviews'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+   32:38  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+   37:53  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+   39:49  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+   49:47  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+  119:87  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+  146:66  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+  150:70  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+  167:66  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\seller\SellerSettings.tsx
+  36:8   warning  React Hook useEffect has a missing dependency: 'fetchProfile'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  40:31  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+  50:38  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+  51:45  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+  52:35  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+  53:32  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+  62:35  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+  66:22  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+  71:18  error    'error' is defined but never used                                                                                @typescript-eslint/no-unused-vars
+
+Γ£û 275 problems (235 errors, 40 warnings)
+  3 errors and 2 warnings potentially fixable with the `--fix` option.
+
+

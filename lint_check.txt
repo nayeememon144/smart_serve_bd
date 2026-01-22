@@ -1,0 +1,124 @@
+﻿
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\admin\AdminApprovals.tsx
+  78:18  error  '_err' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\admin\AdminBookings.tsx
+  2:1  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-unused-vars')
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\admin\AdminCategories.tsx
+  3:1  warning  Unused eslint-disable directive (no problems were reported from 'react-hooks/exhaustive-deps')
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\admin\AdminDashboard.tsx
+  1:1  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-explicit-any')
+  3:1  warning  Unused eslint-disable directive (no problems were reported from 'react-hooks/exhaustive-deps')
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\admin\AdminFinancials.tsx
+   2:1   warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-unused-vars')
+  69:17  error    'startDate' is never reassigned. Use 'const' instead                                                  prefer-const
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\admin\AdminLogin.tsx
+  3:1  warning  Unused eslint-disable directive (no problems were reported from 'react-hooks/exhaustive-deps')
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\admin\AdminProductForm.tsx
+  2:1  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-unused-vars')
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\admin\AdminProducts.tsx
+  2:1  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-unused-vars')
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\admin\AdminReviews.tsx
+  2:1  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-unused-vars')
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\admin\AdminServiceForm.tsx
+   2:1   warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-unused-vars')
+  24:11  error    Unexpected empty object pattern                                                                       no-empty-pattern
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\admin\AdminSettings.tsx
+  2:1  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-unused-vars')
+  3:1  warning  Unused eslint-disable directive (no problems were reported from 'react-hooks/exhaustive-deps')
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\admin\AdminTransactions.tsx
+  61:17  error  'startDate' is never reassigned. Use 'const' instead  prefer-const
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\admin\AdminUsers.tsx
+  3:1  warning  Unused eslint-disable directive (no problems were reported from 'react-hooks/exhaustive-deps')
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\auth\ForgotPasswordPage.tsx
+  2:1  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-unused-vars')
+  3:1  warning  Unused eslint-disable directive (no problems were reported from 'react-hooks/exhaustive-deps')
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\auth\LoginPage.tsx
+  1:1  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-explicit-any')
+  3:1  warning  Unused eslint-disable directive (no problems were reported from 'react-hooks/exhaustive-deps')
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\auth\RegisterPage.tsx
+  1:1  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-explicit-any')
+  3:1  warning  Unused eslint-disable directive (no problems were reported from 'react-hooks/exhaustive-deps')
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\auth\ResetPasswordPage.tsx
+  2:1  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-unused-vars')
+  3:1  warning  Unused eslint-disable directive (no problems were reported from 'react-hooks/exhaustive-deps')
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\dashboard\CustomerDashboard.tsx
+  2:1  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-unused-vars')
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\dashboard\CustomerOrdersPage.tsx
+   2:1   warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-unused-vars')
+  51:11  error    Unexpected empty object pattern                                                                       no-empty-pattern
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\provider\ProviderEarnings.tsx
+  2:1  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-unused-vars')
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\provider\ProviderQuotes.tsx
+  2:1  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-unused-vars')
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\provider\ProviderReviews.tsx
+   2:1  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-unused-vars')
+  26:5  warning  Unused eslint-disable directive (no problems were reported from 'react-hooks/exhaustive-deps')
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\provider\ProviderSettings.tsx
+  35:5  warning  Unused eslint-disable directive (no problems were reported from 'react-hooks/exhaustive-deps')
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\public\CheckoutPage.tsx
+  2:1  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-unused-vars')
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\public\HomePage.tsx
+  3:1  warning  Unused eslint-disable directive (no problems were reported from 'react-hooks/exhaustive-deps')
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\public\OrderTrackingPage.tsx
+  2:1  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-unused-vars')
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\public\ProductDetailPage.tsx
+  2:1  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-unused-vars')
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\public\ProductsPage.tsx
+   2:1   warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-unused-vars')
+   3:1   warning  Unused eslint-disable directive (no problems were reported from 'react-hooks/exhaustive-deps')
+  20:11  error    Unexpected empty object pattern                                                                       no-empty-pattern
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\public\QuoteRequestPage.tsx
+  2:1  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-unused-vars')
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\public\ServiceBookingPage.tsx
+    2:1   warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-unused-vars')
+  147:21  error    'minutes' is never reassigned. Use 'const' instead                                                    prefer-const
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\public\ServicesPage.tsx
+  1:1  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-explicit-any')
+  2:1  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-unused-vars')
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\seller\SellerAnalytics.tsx
+  2:1  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-unused-vars')
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\seller\SellerEarnings.tsx
+   2:1   warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-unused-vars')
+  57:17  error    'query' is never reassigned. Use 'const' instead                                                      prefer-const
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\seller\SellerProducts.tsx
+  1:1  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-explicit-any')
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\seller\SellerReviews.tsx
+  2:1  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-unused-vars')
+
+Γ£û 50 problems (8 errors, 42 warnings)
+  3 errors and 42 warnings potentially fixable with the `--fix` option.
+

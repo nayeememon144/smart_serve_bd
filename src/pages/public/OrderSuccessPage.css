@@ -1,0 +1,124 @@
+/* Order Success Page */
+.order-success-page {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--spacing-xl) 0;
+    background: var(--bg-secondary);
+}
+
+.order-success-page .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-md);
+}
+
+.success-card {
+    background: var(--bg-primary);
+    border-radius: var(--radius-2xl);
+    padding: var(--spacing-3xl);
+    text-align: center;
+    box-shadow: var(--shadow-lg);
+}
+
+.success-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background: var(--success-100);
+    border-radius: var(--radius-full);
+    margin-bottom: var(--spacing-lg);
+}
+
+.success-icon svg {
+    color: var(--success-500);
+}
+
+.success-card h1 {
+    font-size: var(--text-2xl);
+    font-weight: 700;
+    margin-bottom: var(--spacing-md);
+    color: var(--text-primary);
+}
+
+.success-message {
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-xl);
+    line-height: 1.6;
+}
+
+.order-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-md);
+    background: var(--bg-secondary);
+    border-radius: var(--radius-lg);
+    margin-bottom: var(--spacing-xl);
+}
+
+.order-info .label {
+    color: var(--text-muted);
+}
+
+.order-info .order-code {
+    font-size: var(--text-lg);
+    font-weight: 700;
+    color: var(--primary-600);
+    letter-spacing: 0.5px;
+}
+
+.order-details {
+    margin-bottom: var(--spacing-xl);
+}
+
+.order-details p {
+    color: var(--text-muted);
+    font-size: var(--text-sm);
+    margin-bottom: var(--spacing-xs);
+}
+
+.success-actions {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-xl);
+}
+
+.success-actions .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-md) var(--spacing-xl);
+}
+
+.contact-info {
+    padding-top: var(--spacing-lg);
+    border-top: 1px solid var(--border-light);
+}
+
+.contact-info p {
+    font-size: var(--text-sm);
+    color: var(--text-muted);
+}
+
+.contact-info a {
+    color: var(--primary-600);
+    font-weight: 500;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 640px) {
+    .success-actions {
+        flex-direction: row;
+        justify-content: center;
+    }
+}

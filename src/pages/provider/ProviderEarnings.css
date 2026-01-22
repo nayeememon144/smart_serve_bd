@@ -1,0 +1,239 @@
+/* Provider Earnings Page Styles */
+.provider-earnings-page {
+    padding: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.provider-earnings-page .page-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.provider-earnings-page .page-header h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin: 0;
+}
+
+.provider-earnings-page .page-header p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-top: 0.25rem;
+}
+
+.date-filter {
+    padding: 0.625rem 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    background: var(--bg-primary);
+    font-size: 0.875rem;
+    color: var(--text-primary);
+}
+
+/* Stats Cards */
+.earnings-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.earnings-stats .stat-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.25rem;
+    background: var(--bg-primary);
+    border-radius: var(--radius-xl);
+    border: 1px solid var(--border-color);
+}
+
+.earnings-stats .stat-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: var(--radius-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.earnings-stats .stat-card.primary .stat-icon {
+    background: var(--primary-100);
+    color: var(--primary-600);
+}
+
+.earnings-stats .stat-card.success .stat-icon {
+    background: #dcfce7;
+    color: #16a34a;
+}
+
+.earnings-stats .stat-card.warning .stat-icon {
+    background: #fef3c7;
+    color: #d97706;
+}
+
+.earnings-stats .stat-card.info .stat-icon {
+    background: #dbeafe;
+    color: #2563eb;
+}
+
+.earnings-stats .stat-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.earnings-stats .stat-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.earnings-stats .stat-label {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+/* Transactions Section */
+.transactions-section {
+    background: var(--bg-primary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+}
+
+.transactions-section .section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.25rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.transactions-section h2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0;
+}
+
+.transactions-table {
+    overflow-x: auto;
+}
+
+.transactions-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.transactions-table th,
+.transactions-table td {
+    padding: 0.875rem 1.25rem;
+    text-align: left;
+    font-size: 0.875rem;
+}
+
+.transactions-table th {
+    background: var(--bg-secondary);
+    font-weight: 600;
+    color: var(--text-secondary);
+    white-space: nowrap;
+}
+
+.transactions-table td {
+    border-bottom: 1px solid var(--border-color);
+    color: var(--text-primary);
+}
+
+.transactions-table tr:last-child td {
+    border-bottom: none;
+}
+
+.transactions-table tr:hover td {
+    background: var(--bg-secondary);
+}
+
+.transactions-table .booking-code {
+    font-family: 'Courier New', monospace;
+    font-weight: 600;
+    color: var(--primary-600);
+}
+
+.transactions-table .amount {
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+/* Payment Badges */
+.payment-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 10px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border-radius: var(--radius-full);
+}
+
+.payment-badge.paid {
+    background: #dcfce7;
+    color: #16a34a;
+}
+
+.payment-badge.pending {
+    background: #fef3c7;
+    color: #d97706;
+}
+
+/* Empty & Loading States */
+.loading-state,
+.empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    text-align: center;
+    color: var(--text-muted);
+}
+
+.loading-state .spinner {
+    width: 40px;
+    height: 40px;
+    border: 3px solid var(--border-color);
+    border-top-color: var(--primary-500);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+.empty-state svg {
+    margin-bottom: 1rem;
+}
+
+.empty-state h3 {
+    font-size: 1.1rem;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .earnings-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .earnings-stats {
+        grid-template-columns: 1fr;
+    }
+
+    .provider-earnings-page .page-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+}

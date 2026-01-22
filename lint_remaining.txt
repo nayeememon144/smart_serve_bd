@@ -1,0 +1,18 @@
+﻿
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\admin\AdminApprovals.tsx
+  78:18  error  '_err' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\admin\AdminServiceForm.tsx
+  24:11  error  Unexpected empty object pattern  no-empty-pattern
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\dashboard\CustomerOrdersPage.tsx
+  51:11  error  Unexpected empty object pattern  no-empty-pattern
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\public\ProductsPage.tsx
+  20:11  error  Unexpected empty object pattern  no-empty-pattern
+
+C:\Users\hp\Desktop\Project Testing\Service Marketplace Platform\src\pages\public\ServiceBookingPage.tsx
+  147:21  error  'minutes' is never reassigned. Use 'const' instead  prefer-const
+
+Γ£û 5 problems (5 errors, 0 warnings)
+
